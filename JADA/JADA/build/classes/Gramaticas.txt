@@ -1,0 +1,8 @@
+Gramaticas
+
+not terminal 	PROGRAM 	PROPERTIES 	BODY 	ASIGN 
+
+
+PROGRAM 		::= 	PROPERTIES 	BODY
+PROPERTIES 		::= 	#defproperties 	ASIGN 	#defproperties
+ASIGN 			::= 	
